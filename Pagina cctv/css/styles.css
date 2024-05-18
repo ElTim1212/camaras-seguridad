@@ -1,0 +1,280 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-size: auto;
+  background-size: cover;
+  z-index:1 ;
+}
+.bg-gray {
+    background-color: #ffffff;
+    padding: 1rem;
+}
+
+
+
+.box {
+    position: relative;
+    border: 2px solid darkblue;
+    color:white;
+    width: 100%;
+    max-width: 800px;
+    top:5px;
+    margin: 2px auto;
+
+    
+    padding: 10px;
+   
+    background-color:rgba(60, 74, 133, 0.705);
+    
+    display: flex;
+    border-width:3px ;
+  }
+  .carousel {
+         width: 400px;
+         height: 300px;
+          overflow: hidden;
+         position: relative;
+         top: 20px;
+         
+        }
+    
+        .carousel img {
+          width: 100%;
+          height: auto;
+          position: absolute;
+          animation: slide 12s infinite;
+          opacity: 0;
+       }
+    
+       .carousel img:nth-child(1) {
+          animation-delay: 0s;
+        }
+    
+       .carousel img:nth-child(2) {
+          animation-delay: 4s;
+        }
+    
+        .carousel img:nth-child(3) {
+         animation-delay: 8s;
+       }
+    
+       @keyframes slide {
+         0% {opacity: 0;}
+          8% {opacity: 1;}
+          33% {opacity: 1;}
+        41% {opacity: 0;}
+         100% {opacity: 0;}  }
+
+         .container2 {
+        
+        background-image: url("../img/bg.jpg");
+          opacity:100% ;
+          display: flex;
+         }
+         
+         .container-bajada{
+          padding-top: 3 px;
+          padding-bottom: 3px;
+          border-color: black;
+          border-width:3px ;
+          background-color: darkblue;
+          color:white;
+          position:sticky;
+        
+          
+
+         
+         }
+          
+
+
+         .navar {
+          
+          height: 50px;
+          background:rgba(60, 74, 133, 0.705);
+          padding-left: 30%;
+          padding-right: 30%;
+          align-items: center;
+          justify-content: center;
+          color:white;
+          display: flex;
+         }
+         .colornav{
+          
+         
+          color:white;
+         
+         }
+         .logo {
+          padding-right: 55%;
+          padding-left: 45%;
+          background-color: black;
+          margin: 3px;
+          width: 30px;
+          height: 60px;
+          display: flexbox;
+        }
+
+        
+        
+       .fondo{
+        position: relative;
+        background-image: url("../img/bg.jpg");
+        
+       
+        background-repeat: repeat;
+        background-size: cover;
+        opacity: 100%;
+        z-index: 1;
+        height:800px ;
+       }
+       .cartaNosotros {
+
+        
+
+
+      }
+     
+
+      
+
+
+     
+      .card-body{
+        position:relative;
+        top:3px;
+        right: 10px;
+        left: 10px;
+        display: flex;
+          }
+        
+
+     
+        
+       
+        .fondo.install{
+          position: relative;
+          background-image: url("../img/bg.jpg");
+          color:white;
+          height:600px;
+          align-content: center;          
+          
+          
+        
+        }   
+        .card-header.cardman h2{
+          position:relative;
+          right:120px;
+          
+          color:rgb(255, 255, 255);}
+
+          .card-body.repa{
+            position:relative;
+            top:3px;
+            right: 30%;
+            left: 30%;
+            padding-left:50px ;
+              }
+
+          .container-bajada-manten{
+          padding-top: 1 px;
+          padding-bottom: 3px;
+          border-color: black;
+          border-width:3px ;
+          
+          color:white;
+          position:static;
+            
+        }
+
+        .galeria {
+            
+          
+          position: relative;
+          bottom: 30px;
+          margin-top: 5px;
+          border-radius: 3px;
+          display: grid;
+          grid-template-columns: 0.1fr 0.5fr 0.5fr 0.5fr;
+          display: flexbox;
+          top:20px
+        }
+
+
+        
+       /* .galeria {
+            
+          
+          margin-top: 5px;
+          
+          border-radius: 3px;
+          display: grid;
+          grid-template-columns: 300px 300px 300px;
+          display: flexbox;
+
+        }  */
+
+
+
+
+
+
+          .galeria img{
+            padding-left: 5px;
+            padding-right: 5px;
+            
+            
+            width: 80%;
+            border-radius: 3px;
+
+          }
+
+          #man{
+
+            color:white;
+            height:900px;
+          }
+               
+
+          .mantenciones{
+
+            margin-top: 13px;
+                 
+
+          }
+          .wlogoman img{
+            box-shadow:50px ;
+          }
+          .wrap{
+            /* background-color: #fff; */
+            padding: 2rem 3rem;
+            
+            text-align: center;
+            color: #fff;
+            border: 3px solid #fff;
+            box-shadow: 0px 0px 25px #222;
+            
+            backdrop-filter: blur(80px);}
+
+        .contenedor3{
+
+        position:relative;
+        bottom: 100px;
+
+
+        }
+        .card-text{
+         
+          
+          max-width: 100%
+          
+          
+        }
+
+        .card-header{
+        
+          color:white;
+          text-align: center;
+
+
+        }
